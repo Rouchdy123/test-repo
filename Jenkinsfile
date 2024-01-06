@@ -1,10 +1,9 @@
 pipeline {
-  agent any
   stages {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/Rouchdy123/kub-test.git', branch:'main'
+        git url: 'https://github.com/Rouchdy123/kub-test.git', branch: 'main'
       }
     }
 
