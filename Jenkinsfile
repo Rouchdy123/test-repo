@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/Rouchdy123/kub-test.gitt', branch:'test-deploy-stage'
+        git url:'https://github.com/Rouchdy123/kub-test.git', branch:'test-deploy-stage'
       }
     }
 
