@@ -16,7 +16,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: nginx
+      - image: imaneaabouche/nginxm2ssi:v1
         name: mynginx
 
 ---
